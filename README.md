@@ -4,13 +4,7 @@
 
 | Module   | Code | Description |
 | ---------------- | :--: | ---: |
-| Patient  |    ```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```|     |
+| Patient  |   34<br>35<br>|     |
 | Doctor  |      |   |
 | Admin |     |      |
 | Auth   |  |      |
