@@ -4,12 +4,13 @@
 
 | Module   | Code | Description |
 | ---------------- | :--: | ---: |
-| Patient  |    interface user{
-<p> id: int ; </p>
-<p> email: string;</p>
-<p> password: string; </p>
-<p> role: Role; </p>
-} |     |
+| Patient  |    ```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```|     |
 | Doctor  |      |   |
 | Admin |     |      |
 | Auth   |  |      |
