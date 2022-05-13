@@ -127,7 +127,7 @@ interface message{
 
 
 </td>
-    <td> This module is necesary to contain the text of the message and match aswer and question for users </td>
+    <td> This module is necesary to contain the text of the message and match aswer and question for users. </td>
 </tr>
 </table>
 
