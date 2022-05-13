@@ -43,27 +43,30 @@
 
     
 <tr>
-<td> Patient </td>
+<td> Doctor </td>
 <td>
 
 
 ```ts
 
- interface patient{
-    id_patient: int;//easy identification
-    name_patient: string;// identification
-    email_patient:string;//information
-    password_patient: string;//Login info
-    age_patient:  int//patient info
-    gender_patient: string;//Some appointment would be necesary to know the gender
-    status_patient: boolean;//Served/Not served
-    status_new:boolean;// New or not new
+ interface doctor{
+    id_doctor: int;//easy identification 
+    name_doctor: string;// identification
+    email_doctor:string;//information
+    password_doctor: string;//Login info
+    gender_doctor: string;//Some appointment would be necesary to know the gender
+    status_doctor: boolean;//Connected/disconnected 
+    <br>list_patient: list;//control of patients
+    number_patients: int;//control of patients 
+    hours_available: int;//control of appointment 
+    schedule_doctor:list;//To fix an appointment
+    status_new:boolean;// New or not new  
 }
 ```
 
 
 </td>
-    <td> This module is necessary beacause it will be the main user of the app, we need a way to identication, that provide us the main information about the user and a way to login into the system. </td>
+    <td> This module is important beacause the doctor will be able to give tha available hours and days, they will be able to see the active patients and a to put their status to answer a possible quickly contact. </td>
 </tr>
 
     
