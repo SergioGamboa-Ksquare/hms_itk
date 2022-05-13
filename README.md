@@ -23,15 +23,16 @@
 
 
 ```ts
-ts
-{
-    "id": 10,
-    "username": "alanpartridge",
-    "email": "alan@alan.com",
-    "password_hash": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.CPCWCZsyqqa8./whhfzBZydX7yvahHS",
-    "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
-    "created_at": "2015-02-14T20:45:26.433Z",
-    "updated_at": "2015-02-14T20:45:26.540Z"
+
+ interface patient{
+    id_patient: int;//easy identification
+    name_patient: string;// identification
+    email_patient:string;//information
+    password_patient: string;//Login info
+    age_patient:  int//patient info
+    gender_patient: string;//Some appointment would be necesary to know the gender
+    status_patient: boolean;//Served/Not served
+    status_new:boolean;// New or not new
 }
 ```
 
