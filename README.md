@@ -4,8 +4,7 @@
 
 | Module   | Code |Description |
 | ---------------- | :--: | ---: |
-| Patient  | <pre>
-```ts
+| Patient  | <pre>```ts
 interface patient
 {
     id_patient: int;//easy identification
