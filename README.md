@@ -15,15 +15,15 @@
 
 <table>
 <tr>
-<td> Status </td> <td> Response </td>
+    <td> Module </td> <td> Code </td><td> Description</td>
 </tr>
 <tr>
 <td> 200 </td>
 <td>
 
 
-```json
-json
+```ts
+ts
 {
     "id": 10,
     "username": "alanpartridge",
