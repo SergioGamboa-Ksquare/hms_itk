@@ -71,7 +71,7 @@
 
     
 <tr>
-<td> Admin </td>
+<td> Auth </td>
 <td>
 
 
@@ -92,5 +92,36 @@ interface admin{
 
 </td>
     <td> This module is necessary for the control of the updated list of patients and doctor, the admin will be able to see the status of both and match the doctors and patients. </td>
+</tr>
+    
+<tr>
+<td> Admin </td>
+<td>
+
+
+<br> Role based <br>Account creation <br> Account authentication<br> JWT-based 
+
+
+</td>
+    <td> This module is necessary for upload new users of the appa and provide authentyfication in the platform </td>
+</tr>
+    
+ <tr>
+<td> Contact </td>
+<td>
+
+    
+```ts    
+interface contact{
+  name_contact: string;// identification
+  email_contact:string;//information
+  status_new:boolean;// aswered/not aswered
+  id_message:int;//identification for the direct message
+}
+```
+
+
+</td>
+    <td> Optional: It will helps to exchange direct message between user contacts and doctor/admin </td>
 </tr>
 </table>
