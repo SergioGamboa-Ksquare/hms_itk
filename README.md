@@ -124,4 +124,22 @@ interface contact{
 </td>
     <td> Optional: It will helps to exchange direct message between user contacts and doctor/admin </td>
 </tr>
+<td> Message </td>
+<td>
+
+    
+```ts    
+interface message{
+    message_contact:string;//message waiting to receive an answer
+    answer_doctor:string;//message to send an answer
+    id_message:int;//identification for the direct message
+}
+```
+
+
+</td>
+    <td> This module is necesary to contain the text of the message and match aswer and question for users </td>
+</tr>
 </table>
+
+
