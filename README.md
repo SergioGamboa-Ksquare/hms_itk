@@ -18,7 +18,7 @@
     <td> Module </td> <td> Code </td><td> Description</td>
 </tr>
 <tr>
-<td> 200 </td>
+<td> Patient </td>
 <td>
 
 
@@ -38,6 +38,7 @@
 
 
 </td>
+    <td> This module is necessary beacause it will be the main user of the app, we need a way to identication, that provide us the main information about the user and a way to login into the system. </td>
 </tr>
 <tr>
 <td> 400 </td>
@@ -46,5 +47,6 @@
 **Markdown** _here_. (Blank lines needed before and after!)
 
 </td>
+    <td> </td>
 </tr>
 </table>
