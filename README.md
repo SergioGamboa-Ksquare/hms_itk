@@ -40,13 +40,29 @@
 </td>
     <td> This module is necessary beacause it will be the main user of the app, we need a way to identication, that provide us the main information about the user and a way to login into the system. </td>
 </tr>
+
+    
 <tr>
-<td> 400 </td>
+<td> Patient </td>
 <td>
 
-**Markdown** _here_. (Blank lines needed before and after!)
+
+```ts
+
+ interface patient{
+    id_patient: int;//easy identification
+    name_patient: string;// identification
+    email_patient:string;//information
+    password_patient: string;//Login info
+    age_patient:  int//patient info
+    gender_patient: string;//Some appointment would be necesary to know the gender
+    status_patient: boolean;//Served/Not served
+    status_new:boolean;// New or not new
+}
+```
+
 
 </td>
-    <td> </td>
+    <td> This module is necessary beacause it will be the main user of the app, we need a way to identication, that provide us the main information about the user and a way to login into the system. </td>
 </tr>
 </table>
