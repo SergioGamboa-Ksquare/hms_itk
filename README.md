@@ -12,7 +12,7 @@ Open the console and run the following command:
 node app.js
 ```
 If it is necessary you have to download or update new packages
-The app will run into the port 4016
+<br>The app will run into the port __4016__</br>
 ### You are ready to check and test the backend part
 If it is necessary you have to update or download some packages.
 The following models are not-updated models as evidence of the first stage of the project
