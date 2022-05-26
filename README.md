@@ -10,13 +10,12 @@ Open the folder with Visual studio
 Open the console and run the following command:
 ```js
 node app.js
-}
 ```
 If it is necessary you have to download or update new packages
 The app will run into the port 4016
 ### You are ready to check and test the backend part
 If it is necessary you have to update or download some packages.
-
+The following models are not-updated models as evidence of the first stage of the project
 
 <table>
 <tr>
