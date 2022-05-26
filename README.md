@@ -1,6 +1,22 @@
 # Health Management System
 # Final Project
 ## Sergio Gamboa
+## How to run?
+### Step 1
+Download the zip file and extract all files in a local folder
+### Step 2
+Open the folder with Visual studio
+### Step 3
+Open the console and run the following command:
+```js
+node app.js
+}
+```
+If it is necessary you have to download or update new packages
+The app will run into the port 4016
+### You are ready to check and test the backend part
+If it is necessary you have to update or download some packages.
+
 
 <table>
 <tr>
